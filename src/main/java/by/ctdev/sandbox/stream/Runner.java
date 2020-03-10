@@ -1,18 +1,12 @@
 package by.ctdev.sandbox.stream;
 
-import java.util.stream.Stream;
-
-import by.ctdev.sandbox.stream.boilerplate.BankStreamer;
+import by.ctdev.sandbox.stream.boilerplate.SolutionRunner;
 
 public class Runner {
 
   public static void main(String[] args) {
-    BankStreamer streamer = new BankStreamer("/by/ctdev/sandbox/stream/banks.csv");
-    doMagic(streamer.stream());
-  }
-
-  public static void doMagic(Stream<Bank> banks) {
-
+    SolutionRunner runner = new SolutionRunner();
+    runner.accept(stream -> stream.count());
   }
 
 }
