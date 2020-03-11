@@ -13,5 +13,5 @@ public interface Solution<R> extends Function<Stream<Bank>, R> {
     };
 
     @Override
-    R apply(Stream<Bank> t);
+    R apply(Stream<Bank> stream);
 }
