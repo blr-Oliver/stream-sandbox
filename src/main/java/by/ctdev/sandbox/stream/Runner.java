@@ -1,7 +1,7 @@
 package by.ctdev.sandbox.stream;
 
 import by.ctdev.sandbox.stream.boilerplate.SolutionRunner;
-import by.ctdev.sandbox.stream.problems.*;
+import by.ctdev.sandbox.stream.problems.CheckSamePhonePattern;
 
 public class Runner {
 
